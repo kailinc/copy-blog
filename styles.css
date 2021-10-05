@@ -1,6 +1,7 @@
 body {
   font-family: Cambria;
   letter-spacing: 1px;
+  margin: 0px;
 }
 
 article {
@@ -33,4 +34,26 @@ p {
 .notify p {
   font-size: 16px;
   text-align: center;
+}
+
+.nav {
+  background-color:#009c70;
+  color: white;
+  overflow:hidden;
+  padding-left: 150px;
+  text-align: center;
+}
+
+.nav li {
+  float: left;
+  list-style: none;
+  padding: 16px;
+  text-align: center;
+  font-size:16px;
+  font-weight:100;
+}
+
+#genre {
+  font-size: 24px;
+  padding-top:10px;
 }
