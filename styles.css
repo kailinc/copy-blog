@@ -1,3 +1,24 @@
-* {
-  font-family: Georgia;
+body {
+  font-family: Cambria;
+  letter-spacing: 1px;
+}
+
+article {
+  padding: 25px 425px 25px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 24px;
+  color: #757575;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 21px;
+  font-weight:lighter;
 }
