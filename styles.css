@@ -41,7 +41,7 @@ p {
   color: white;
   overflow:hidden;
   padding-left: 150px;
-  text-align: center;
+  margin: 0px;
 }
 
 .nav li {
@@ -56,4 +56,38 @@ p {
 #genre {
   font-size: 24px;
   padding-top:10px;
+}
+
+.auth {
+  color: #009c70;
+  background-color: white;
+  padding: 10px 0px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.auth img {
+  padding-left: 150px;
+  float: left;
+}
+
+.signIn {
+  float: right;
+  padding-right: 150px;
+}
+
+.signIn p {
+  float: right;
+  padding: 16px;
+  margin: 0px;
+}
+
+.signIn button {
+  padding: 16px;
+  float: right;
+  color: #009c70;
+  background-color: white;
+  border: 1px solid #009c70;
+  cursor: pointer;
+  border-radius: 30px;
 }
