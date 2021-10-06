@@ -118,3 +118,11 @@ p {
 #info p:last-child {
   color:grey;
 }
+
+.title h1 {
+  margin-bottom: 0px;
+}
+
+.title h3{
+  margin: 10px 0px;
+}
