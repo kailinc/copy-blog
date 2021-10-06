@@ -265,3 +265,53 @@ form input {
   font-weight: 500;
   margin: 8px;
 }
+
+footer {
+  background-color: #000000e6;
+  color:#ffffffb3;
+}
+
+.tabs {
+  overflow: hidden;
+  padding: 20px 120px;
+}
+
+.tabs div {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.tabs div h4 {
+  color: white;
+  margin: 0px;
+  font-size:22px;
+  font-weight: 400;
+}
+
+.tabs div p {
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 1.3em;
+}
+
+.botNav {
+  overflow: hidden;
+  height: 100%;
+}
+
+.botNav li {
+  float: right;
+  color: white;
+  padding: 8px 18px;
+  margin: 8px;
+  list-style: none;
+}
+
+.botNav li:first-child {
+  float: left;
+  margin-left: 120px;
+  padding-left: 0px;
+}
