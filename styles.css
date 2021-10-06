@@ -228,3 +228,40 @@ form input {
   border: 1px solid white;
   margin: 0px 5px;
 }
+
+.line {
+  border-bottom: 1px solid #f1f1f1;
+  margin: 30px 0px;
+}
+
+.related img {
+  border-radius: 50%;
+}
+
+.related {
+  overflow: hidden;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+.related div {
+  float: left;
+  padding:10px;
+  margin: 20px 0px;
+}
+
+.related div:last-child {
+  width: 80%;
+}
+
+.subtext p {
+  font-size: 16px;
+  color: grey;
+  margin: 8px;
+}
+
+.subtext h3 {
+  color: black;
+  font-weight: 500;
+  margin: 8px;
+}
