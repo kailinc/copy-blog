@@ -95,6 +95,7 @@ p {
 
 .author {
   overflow: hidden;
+  margin: 20px 0px;
 }
 
 .author div {
@@ -125,4 +126,11 @@ p {
 
 .title h3{
   margin: 10px 0px;
+}
+
+.creds {
+  text-align: center;
+  font-size: 16px;
+  color: grey;
+  padding-bottom: 40px;
 }
