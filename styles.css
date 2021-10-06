@@ -6,6 +6,7 @@ body {
 
 article {
   padding: 25px 400px 25px;
+  overflow: hidden;
 }
 
 h1 {
@@ -90,4 +91,30 @@ p {
   border: 1px solid #009c70;
   cursor: pointer;
   border-radius: 30px;
+}
+
+.author {
+  overflow: hidden;
+}
+
+.author div {
+  float: left;
+  padding: 8px 4px;
+  margin: 4px;
+}
+
+#tb {
+  border-radius: 50%;
+  border: 1px solid #009c70;
+  height: 60px;
+  width: 60px;
+}
+
+#info p {
+  font-size: 16px;
+  line-height: 7px;
+}
+
+#info p:last-child {
+  color:grey;
 }
